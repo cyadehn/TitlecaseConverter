@@ -18,7 +18,7 @@ public class Main {
        output.setPreferredSize(new Dimension(300,40));
 
        convertButton.addActionListener(event -> {
-           output.setText(input.getText());
+           output.setText(TitlecaseConverter.convertToTitleCase(input.getText()));
        });
 
        JFrame gui = new JFrame("Title case converter");
