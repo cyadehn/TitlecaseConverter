@@ -1,3 +1,5 @@
+package com.cyadehn;
+
 public class TitlecaseConverter {
     public static String convertToTitleCase(String input) {
         StringBuilder builder = new StringBuilder();

@@ -1,3 +1,5 @@
+package com.cyadehn;
+
 import javax.swing.*;
 import java.awt.*;
 
