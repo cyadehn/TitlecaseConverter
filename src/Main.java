@@ -4,6 +4,7 @@ import java.awt.*;
 public class Main {
    public static void main(String... args) {
        JFrame application = createGUI();
+       application.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
        application.setVisible(true);
    }
 
